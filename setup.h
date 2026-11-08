@@ -5,6 +5,8 @@
 #ifndef SETUP
 #define SETUP
 
-Graph convertFileToGraph(char* filename);
+Graph convertHCPFileToGraph(char* filename, bool directed);
+
+Graph convertTxtFileToGraph(char* filename, bool directed);
 
 #endif

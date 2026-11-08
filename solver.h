@@ -1,6 +1,10 @@
 #ifndef SOLVER
 #define SOLVER
 
-void dfs(Graph& graph, int startNode);
+#include <vector>
+
+using namespace std;
+
+vector<vector<int>> dfs(Graph& graph, int startNode, bool findAll);
 
 #endif

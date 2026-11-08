@@ -2,10 +2,15 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <regex>
+#include <sstream>
 
 using namespace std;
 
-Graph convertFileToGraph(char* filename)
+/*
+ * Used to convert a .hcp file from the Flinders TSP and HCP Benchmark set into a graph.
+ */
+Graph convertHCPFileToGraph(char* filename, bool directed)
 {
     fstream fileStream;
     fileStream.open(filename);
@@ -32,8 +37,45 @@ Graph convertFileToGraph(char* filename)
     while (fileStream >> u >> v)
     {
         //cout << u << " " << v << "\n";
-        g.addEdge(u, v);
+        g.addEdge(u, v, directed);
     }
+
+    fileStream.close();
+
+    return g;
+}
+
+/*
+ * Used to convert a .txt file from the Flinders Graph Database into a graph. //TODO: this just gets the first graph right now, the file has multiple
+ */
+Graph convertTxtFileToGraph(char* filename, bool directed)
+{
+    fstream fileStream;
+    fileStream.open(filename);
+    cout << filename << "\n";
+
+    string str = filename;
+    regex pattern("(\\d+)");
+    smatch matches;
+    regex_search(str, matches, pattern);
+    int numV = stoi(matches[0].str());
+
+    Graph g = Graph(numV);
+    cout << "graph created with " << numV << " vertices\n";
+
+    int u, v;
+    string line;
+    while (getline(fileStream, line))
+    {
+        //cout << u << " " << v << "\n";
+        if (line.length() < 2)
+            break; //TODO: reset graph, add to a list
+        stringstream ss(line);
+        ss >> u >> v;
+        g.addEdge(u, v, directed);
+    }
+
+    fileStream.close();
 
     return g;
 }
