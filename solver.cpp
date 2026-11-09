@@ -14,7 +14,7 @@ struct node {
 /*
  * Uses iterative DFS with a stack to find Hamiltonian paths.
  */
-vector<vector<int>> dfs(Graph& graph, int startNode, bool findAll) {
+vector<vector<int>> dfsIterative(Graph& graph, int startNode, bool findAll) {
 //modified, original code from: https://youcademy.org/graph-dfs-implementation-cpp#iterative-dfs-implementation-using-a-stack
     unordered_set<int> visited; // Keep track of visited nodes
     stack<node> stack; // Use a stack
@@ -47,7 +47,6 @@ vector<vector<int>> dfs(Graph& graph, int startNode, bool findAll) {
 
         if (visited.find(current.v) == visited.end()) { //we have not visited this node already
             visited.insert(current.v);
-            //cout << current.v << " "; // Process the node
             path.push_back(current.v); //add it to the path
 
             // Add neighbors to the stack in reverse order to maintain DFS order
@@ -77,4 +76,52 @@ vector<vector<int>> dfs(Graph& graph, int startNode, bool findAll) {
     return allPaths;
 
     cout << endl;
+}
+
+
+
+
+vector<vector<int>> allPaths;
+/*
+ * Wrapper method: Uses recursive DFS to find Hamiltonian paths.
+ */
+vector<vector<int>> dfsRecursive(Graph& graph, int startNode, bool findAll) {
+    unordered_set<int> visited;
+    vector<int> path;
+    cout << "Calling dfs function" << endl;
+    dfsRecursiveMain(graph, startNode, visited, path, findAll);
+    return allPaths;
+}
+
+/*
+ * Recursive method: Uses recursive DFS to find Hamiltonian paths.
+ */
+void dfsRecursiveMain(Graph& graph, int node, std::unordered_set<int>& visited, vector<int> path, bool findAll) {
+    //modified, original code from: https://youcademy.org/graph-dfs-implementation-cpp
+    if (visited.find(node) == visited.end()) { //we have not visited the node already //TODO: do we need this if condition?
+        visited.insert(node); //add to path
+        path.push_back(node); //add to visited
+
+        int neighborsVisited = 0;
+        for (int neighbor : graph.adjList[node]) { //process neighbors
+            if (visited.find(neighbor) == visited.end()) {
+                neighborsVisited++;
+                if (findAll)
+                {
+                    vector<int> pathCopy(path);
+                    unordered_set<int> visitedCopy(visited);
+                    dfsRecursiveMain(graph, neighbor, visitedCopy, pathCopy, findAll);
+                }
+                else
+                    dfsRecursiveMain(graph, neighbor, visited, path, findAll);
+            }
+        }
+        if (neighborsVisited == 0) // base case: we have reached a leaf node
+        {
+            if (path.size() == graph.V)
+                allPaths.push_back(path);
+            return;
+        }
+        
+    }
 }

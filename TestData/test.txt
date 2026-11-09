@@ -1,4 +1,4 @@
-NAME: SH_64.hcp
+NAME: test.txt
 COMMENT: 
 TYPE: HCP
 DIMENSION: 4
