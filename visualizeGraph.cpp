@@ -48,7 +48,7 @@ public:
         int n = adj_matrix.size();
         for (int i = 0; i < n; i++) {
             cout << i << " -> {";
-            for (int j = 0; j < n; j++) {
+            for (int j = i; j < n; j++) {
                 if (adj_matrix[i][j] > 0){
                     cout << j << " ";
                 }
@@ -56,7 +56,7 @@ public:
             }
             cout << "} ";
         }
-        cout<< "}' | dot -Tsvg > output.svg"<<endl;
+        cout<< "}' | dot -Tsvg > output.svg -Earrowhead=none"<<endl;
     }
 };
 
