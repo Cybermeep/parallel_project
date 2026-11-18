@@ -1,0 +1,86 @@
+suite,instance,file,mode,expect,args,source
+smoke,sam_test4,data/graphdb/sam_test4.hcp,path,hamiltonian,,Sam's TestData/test.txt
+smoke,SH_64,data/tsphcp/SH_64.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+smoke,GPN_244,data/tsphcp/GPN_244.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+smoke,burma14,data/tsplib/burma14.tsp,tsp,3323,,TSPLIB95 (Reinelt 1991) published optimal tour length
+smoke,ulysses16,data/tsplib/ulysses16.tsp,tsp,6859,,TSPLIB95 (Reinelt 1991) published optimal tour length
+smoke,18_H[1-2000],data/graphdb/18_H.g6,cycle,hamiltonian,--batch --count 2000,Flinders Hamiltonian Cycle Project graph database (Meringer GENREG cubic graphs)
+smoke,20_NH[1-2000],data/graphdb/20_NH.g6,cycle,non-hamiltonian,--batch --count 2000,Flinders Hamiltonian Cycle Project graph database (Meringer GENREG cubic graphs)
+graphdb,18_H(all 39635),data/graphdb/18_H.g6,cycle,hamiltonian,--batch,Flinders Hamiltonian Cycle Project graph database (Meringer GENREG cubic graphs)
+graphdb,20_NH(all 14498),data/graphdb/20_NH.g6,cycle,non-hamiltonian,--batch,Flinders Hamiltonian Cycle Project graph database (Meringer GENREG cubic graphs)
+graphdb,18_H-path(all 39635),data/graphdb/18_H.g6,path,hamiltonian,--batch,Flinders Hamiltonian Cycle Project graph database (Meringer GENREG cubic graphs)
+fhcp,COL_1000,data/tsphcp/COL_1000.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,COL_1950,data/tsphcp/COL_1950.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,COL_4110,data/tsphcp/COL_4110.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,COL_7998,data/tsphcp/COL_7998.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS3_1054,data/tsphcp/FLS3_1054.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS3_408,data/tsphcp/FLS3_408.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS3_731,data/tsphcp/FLS3_731.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS_1014,data/tsphcp/FLS_1014.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS_170,data/tsphcp/FLS_170.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS_338,data/tsphcp/FLS_338.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS_507,data/tsphcp/FLS_507.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS_676,data/tsphcp/FLS_676.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,FLS_845,data/tsphcp/FLS_845.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP0m_1006,data/tsphcp/GP0m_1006.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP0m_130,data/tsphcp/GP0m_130.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP0m_250,data/tsphcp/GP0m_250.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP0m_490,data/tsphcp/GP0m_490.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP3_1002,data/tsphcp/GP3_1002.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP3_126,data/tsphcp/GP3_126.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP3_246,data/tsphcp/GP3_246.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GP3_486,data/tsphcp/GP3_486.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GPN_122,data/tsphcp/GPN_122.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GPN_244,data/tsphcp/GPN_244.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GPN_482,data/tsphcp/GPN_482.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,GPN_998,data/tsphcp/GPN_998.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,II_1002,data/tsphcp/II_1002.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,II_1992,data/tsphcp/II_1992.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,II_3972,data/tsphcp/II_3972.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,II_7932,data/tsphcp/II_7932.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,QN_1044,data/tsphcp/QN_1044.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,QN_1968,data/tsphcp/QN_1968.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,QN_3894,data/tsphcp/QN_3894.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,QN_8544,data/tsphcp/QN_8544.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SH_125,data/tsphcp/SH_125.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SH_250,data/tsphcp/SH_250.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SH_500,data/tsphcp/SH_500.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SH_64,data/tsphcp/SH_64.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SNm_1004,data/tsphcp/SNm_1004.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SNm_124,data/tsphcp/SNm_124.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SNm_252,data/tsphcp/SNm_252.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SNm_500,data/tsphcp/SNm_500.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SSP_1011,data/tsphcp/SSP_1011.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SSP_2007,data/tsphcp/SSP_2007.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SSP_4050,data/tsphcp/SSP_4050.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+fhcp,SSP_8040,data/tsphcp/SSP_8040.hcp,cycle,hamiltonian,,Baniasadi et al. 2018 TSP/HCP benchmark (Flinders) - all instances Hamiltonian
+tsplib,burma14,data/tsplib/burma14.tsp,tsp,3323,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,ulysses16,data/tsplib/ulysses16.tsp,tsp,6859,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,gr17,data/tsplib/gr17.tsp,tsp,2085,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,gr21,data/tsplib/gr21.tsp,tsp,2707,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,ulysses22,data/tsplib/ulysses22.tsp,tsp,7013,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,gr24,data/tsplib/gr24.tsp,tsp,1272,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,fri26,data/tsplib/fri26.tsp,tsp,937,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,bayg29,data/tsplib/bayg29.tsp,tsp,1610,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,bays29,data/tsplib/bays29.tsp,tsp,2020,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,dantzig42,data/tsplib/dantzig42.tsp,tsp,699,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,swiss42,data/tsplib/swiss42.tsp,tsp,1273,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,att48,data/tsplib/att48.tsp,tsp,10628,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,gr48,data/tsplib/gr48.tsp,tsp,5046,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,hk48,data/tsplib/hk48.tsp,tsp,11461,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,eil51,data/tsplib/eil51.tsp,tsp,426,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,berlin52,data/tsplib/berlin52.tsp,tsp,7542,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,brazil58,data/tsplib/brazil58.tsp,tsp,25395,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,st70,data/tsplib/st70.tsp,tsp,675,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,eil76,data/tsplib/eil76.tsp,tsp,538,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,pr76,data/tsplib/pr76.tsp,tsp,108159,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,gr96,data/tsplib/gr96.tsp,tsp,55209,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,rat99,data/tsplib/rat99.tsp,tsp,1211,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,kroA100,data/tsplib/kroA100.tsp,tsp,21282,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,kroB100,data/tsplib/kroB100.tsp,tsp,22141,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,kroC100,data/tsplib/kroC100.tsp,tsp,20749,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,kroD100,data/tsplib/kroD100.tsp,tsp,21294,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,kroE100,data/tsplib/kroE100.tsp,tsp,22068,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,rd100,data/tsplib/rd100.tsp,tsp,7910,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,eil101,data/tsplib/eil101.tsp,tsp,629,,TSPLIB95 (Reinelt 1991) published optimal tour length
+tsplib,lin105,data/tsplib/lin105.tsp,tsp,14379,,TSPLIB95 (Reinelt 1991) published optimal tour length

@@ -1,0 +1,71 @@
+#!/bin/bash
+#SBATCH --job-name=hampath-bench
+#SBATCH --account=CHANGE_ME
+#SBATCH --partition=compute
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=128
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=200G
+#SBATCH --time=04:00:00
+#SBATCH --output=hampath-bench-%j.out
+#SBATCH --export=ALL
+
+set -u
+
+module purge
+module load slurm
+module load cpu/0.15.4
+module load gcc/10.2.0
+module load openmpi/4.1.1
+module list
+
+cd "${SLURM_SUBMIT_DIR}"
+
+THREADS="${THREADS:-1,2,4,8,16,32,64,128}"
+HYBRID="${HYBRID:-2:64 3:32 5:16 9:8 17:4 33:2}"
+LIMIT="${LIMIT:-300}"
+REPEAT="${REPEAT:-3}"
+OUT="results/expanse-${SLURM_JOB_ID}"
+LAUNCHER="mpirun -np {ranks} --map-by slot:PE={threads} --bind-to core"
+
+export OMP_PROC_BIND=close
+export OMP_PLACES=cores
+
+make clean
+make
+make mpi
+[ -s bench/synthetic.csv ] || ./gen_synthetic
+mkdir -p "$OUT"
+
+echo "=== correctness and OpenMP scaling: Flinders graph database"
+python3 bench/run_bench.py --suite graphdb --algos pruned --threads "$THREADS" --repeat "$REPEAT" \
+    --time-limit "$LIMIT" --out "$OUT/graphdb_omp.csv" --plots "$OUT/plots"
+
+echo "=== sequential algorithm comparison (Sam's DFS vs pruned vs TSP transformation)"
+python3 bench/run_bench.py --suite graphdb --algos sam-iterative,sam-recursive,pruned,hcp-as-tsp --threads 1 \
+    --repeat "$REPEAT" --time-limit "$LIMIT" --out "$OUT/algorithms.csv"
+
+echo "=== Flinders TSP/HCP benchmark set"
+python3 bench/run_bench.py --suite fhcp --algos pruned --threads "$THREADS" \
+    --time-limit "$LIMIT" --out "$OUT/fhcp_omp.csv" --plots "$OUT/plots"
+
+echo "=== TSPLIB optimal tours"
+python3 bench/run_bench.py --suite tsplib --threads "$THREADS" --repeat "$REPEAT" \
+    --time-limit "$LIMIT" --out "$OUT/tsplib_omp.csv" --plots "$OUT/plots"
+
+echo "=== synthetic scaling instances"
+python3 bench/run_bench.py --manifest bench/synthetic.csv --suite synthetic --threads "$THREADS" \
+    --repeat "$REPEAT" --time-limit "$LIMIT" --out "$OUT/synthetic_omp.csv" --plots "$OUT/plots"
+
+for RT in $HYBRID; do
+    R="${RT%%:*}"
+    T="${RT##*:}"
+    echo "=== MPI + OpenMP: ${R} ranks x ${T} threads"
+    python3 bench/run_bench.py --manifest bench/instances.csv --manifest bench/synthetic.csv \
+        --suite tsplib,synthetic,fhcp --ranks "$R" --threads "$T" --time-limit "$LIMIT" \
+        --mpi-bin ./hampath_mpi --launcher "$LAUNCHER" --out "$OUT/mpi_${R}x${T}.csv" \
+        --baseline "$OUT/tsplib_omp.csv" --baseline "$OUT/synthetic_omp.csv" --baseline "$OUT/fhcp_omp.csv"
+done
+
+echo "=== done; results in $OUT"
+ls -l "$OUT"

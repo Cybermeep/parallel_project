@@ -1,0 +1,602 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\sbatch.sb||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\sbatch.sb||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\visualize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\visualize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\visualize.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\visualize.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\verify.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\verify.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\verify.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\verify.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\tsp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\tsp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\tsp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\tsp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\sam_dfs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\sam_dfs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\mpi_driver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\mpi_driver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\mpi_driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\mpi_driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\io.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\io.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\io.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\io.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\hamsearch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\hamsearch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\hamsearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\hamsearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\src\\common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsplib\\ulysses16.tsp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\tsplib\\ulysses16.tsp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_7998.hcp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\tsphcp\\COL_7998.hcp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_1950.hcp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\tsphcp\\COL_1950.hcp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_1000.hcp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\tsphcp\\COL_1000.hcp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\20_NH.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\graphdb\\20_NH.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\20_NH.g6||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\graphdb\\20_NH.g6||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\18_H.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\graphdb\\18_H.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\18_H.g6||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\graphdb\\18_H.g6||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\sam_test4.hcp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\data\\graphdb\\sam_test4.hcp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\run_bench.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\bench\\run_bench.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\run_bench.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\bench\\run_bench.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\instances.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\bench\\instances.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\gen_synthetic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hamiltonian_integrated\\bench\\gen_synthetic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sbatch.sb",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\sbatch.sb",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\sbatch.sb",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\sbatch.sb",
+              "RelativeToolTip": "hamiltonian_integrated\\sbatch.sb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:09:28.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\README.md",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\README.md",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\README.md",
+              "RelativeToolTip": "hamiltonian_integrated\\README.md",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-18T03:09:13.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Makefile",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\Makefile",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\Makefile",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\Makefile",
+              "RelativeToolTip": "hamiltonian_integrated\\Makefile",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:09:05.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "visualize.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\visualize.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\visualize.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\visualize.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\visualize.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:09:02.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "visualize.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\visualize.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\visualize.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\visualize.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\visualize.cpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:08:59.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "verify.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\verify.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\verify.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\verify.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\verify.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:08:57.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "verify.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\verify.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\verify.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\verify.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\verify.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:08:55.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tsp.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\tsp.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\tsp.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\tsp.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\tsp.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:08:49.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tsp.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\tsp.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\tsp.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\tsp.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\tsp.cpp",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:08:38.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sam_dfs.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\sam_dfs.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\sam_dfs.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\sam_dfs.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\sam_dfs.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:08:38.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "mpi_driver.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\mpi_driver.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\mpi_driver.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\mpi_driver.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\mpi_driver.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:08:36.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "mpi_driver.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\mpi_driver.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\mpi_driver.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\mpi_driver.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\mpi_driver.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:08:28.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\main.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\main.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\main.cpp",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:08:20.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "io.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\io.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\io.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\io.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\io.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:08:18.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "io.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\io.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\io.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\io.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\io.cpp",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:08:03.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "hamsearch.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\hamsearch.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\hamsearch.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\hamsearch.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\hamsearch.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:08:01.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "hamsearch.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\hamsearch.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\hamsearch.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\hamsearch.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\hamsearch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:07:57.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "graph.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\graph.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\graph.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\graph.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\graph.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:07:54.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "graph.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\graph.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\graph.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\graph.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\graph.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:07:50.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "common.h",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\common.h",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\common.h",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\common.h",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\common.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-18T03:07:47.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "common.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\common.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\src\\common.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\src\\common.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\src\\common.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:07:42.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ulysses16.tsp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsplib\\ulysses16.tsp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\tsplib\\ulysses16.tsp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsplib\\ulysses16.tsp",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\tsplib\\ulysses16.tsp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:39.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "COL_7998.hcp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_7998.hcp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\tsphcp\\COL_7998.hcp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_7998.hcp",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\tsphcp\\COL_7998.hcp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:37.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "COL_1950.hcp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_1950.hcp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\tsphcp\\COL_1950.hcp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_1950.hcp",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\tsphcp\\COL_1950.hcp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:37.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "COL_1000.hcp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_1000.hcp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\tsphcp\\COL_1000.hcp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\tsphcp\\COL_1000.hcp",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\tsphcp\\COL_1000.hcp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:36.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20_NH.txt",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\20_NH.txt",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\graphdb\\20_NH.txt",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\20_NH.txt",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\graphdb\\20_NH.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-11-18T03:07:34.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20_NH.g6",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\20_NH.g6",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\graphdb\\20_NH.g6",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\20_NH.g6",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\graphdb\\20_NH.g6",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:34.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "18_H.txt",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\18_H.txt",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\graphdb\\18_H.txt",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\18_H.txt",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\graphdb\\18_H.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-11-18T03:07:33.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "18_H.g6",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\18_H.g6",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\graphdb\\18_H.g6",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\18_H.g6",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\graphdb\\18_H.g6",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:32.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "sam_test4.hcp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\sam_test4.hcp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\data\\graphdb\\sam_test4.hcp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\data\\graphdb\\sam_test4.hcp",
+              "RelativeToolTip": "hamiltonian_integrated\\data\\graphdb\\sam_test4.hcp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:32.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "run_bench.py",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\run_bench.py",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\bench\\run_bench.py",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\run_bench.py",
+              "RelativeToolTip": "hamiltonian_integrated\\bench\\run_bench.py",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-18T03:07:23.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "run_bench.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\run_bench.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\bench\\run_bench.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\run_bench.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\bench\\run_bench.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABsBAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:05:43.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "instances.csv",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\instances.csv",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\bench\\instances.csv",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\instances.csv",
+              "RelativeToolTip": "hamiltonian_integrated\\bench\\instances.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-11-18T03:05:40.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "gen_synthetic.cpp",
+              "DocumentMoniker": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\gen_synthetic.cpp",
+              "RelativeDocumentMoniker": "hamiltonian_integrated\\bench\\gen_synthetic.cpp",
+              "ToolTip": "C:\\Users\\Lynette\\Downloads\\hamiltonian_integrated\\hamiltonian_integrated\\bench\\gen_synthetic.cpp",
+              "RelativeToolTip": "hamiltonian_integrated\\bench\\gen_synthetic.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T03:05:29.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
